@@ -12,6 +12,7 @@
         <module>ControlSumma</module>
         <module>swing_utils</module>
         <module>swing_componens_modifed</module>
+        <module>swing_components_filter</module>
     </modules>
 
     <properties>
