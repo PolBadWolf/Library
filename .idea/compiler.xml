@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ControlSumma" />
+        <module name="swing_components_modifed" />
+        <module name="swing_componens_modifed" />
+        <module name="swing_utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -2,26 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Library</artifactId>
+        <groupId>ru.yandex.fixcolor.library</groupId>
+        <version>1.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.yandex.fixcolor.library</groupId>
-    <artifactId>Library</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0</version>
-    <modules>
-        <module>ControlSumma</module>
-        <module>swing_utils</module>
-        <module>swing_componens_modifed</module>
-    </modules>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <project.resources.sourceEncoding>UTF-8</project.resources.sourceEncoding>
-        <archetype.encoding>UTF-8</archetype.encoding>
-        <java.version>11</java.version>
-        <javafx.version>11</javafx.version>
-    </properties>
+    <artifactId>swing_utils</artifactId>
 
     <build>
         <plugins>
@@ -36,5 +24,14 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>ru.yandex.fixcolor.library</groupId>
+            <artifactId>swing_components_modifed</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
