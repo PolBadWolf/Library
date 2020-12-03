@@ -10,6 +10,7 @@
         <module name="swing_components_modifed" />
         <module name="swing_components_filter" />
         <module name="swing_componens_modifed" />
+        <module name="ConverterDigit" />
         <module name="swing_utils" />
       </profile>
     </annotationProcessing>
